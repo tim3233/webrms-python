@@ -1,5 +1,6 @@
 #Quick&Dirty Python-Datalogger for Carrera Digital
 #Please add "try/except" for serial port by yourself
+#licensed under GNU GENERAL PUBLIC LICENSE Version 2
 
 import serial
 import time
