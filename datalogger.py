@@ -39,10 +39,10 @@ while 1<2:
                         timer=str(decimal);
         
                         #print for testing
-                        print("Auto:" + car_controller)
-                        print("Zeitstempel:" + timer +"ms")
+                        print("Car:" + car_controller)
+                        print("Timestamp:" + timer +"ms")
                 
-                        #write logfile for each car
+                        #write logfile for each car with timestamp in ms
                         datafile = open("car."+car_controller+".rnd", "a")
                         print >> datafile, timer
                         datafile.close()
